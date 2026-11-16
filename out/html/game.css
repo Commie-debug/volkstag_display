@@ -1084,6 +1084,17 @@ table {
     text-decoration-style: dotted;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* parl/pres election table */
 .election-table {
   border: 1px solid var(--border-color);
@@ -1093,6 +1104,7 @@ table {
   margin: 1.5em 0;
   font-size: 0.95em;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
 }
 
 .election-table > p { display: none !important; }
@@ -1110,6 +1122,7 @@ table {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.85em;
+  text-align: left;
 }
 body.dark-mode .el-head { background: rgba(255,255,255,0.06); }
 
@@ -1134,17 +1147,18 @@ body.dark-mode .el-subhead { background: rgba(0,0,0,0.4); }
   word-break: break-word;
   overflow-wrap: break-word;
   white-space: normal;
+  text-align: left;
 }
 .el-col:last-child { border-right: none; }
 
-.el-col-party { flex: 0 0 50%; max-width: 50%; text-align: right; font-family: monospace; font-size: 1.1em;}
-.el-col-seats { flex: 0 0 20%; max-width: 20%; text-align: right; font-family: monospace; font-size: 1.1em;}
-.el-col-vote  { flex: 0 0 30%; max-width: 30%; text-align: right; font-family: monospace; font-size: 1.1em;}
+.el-col-party { flex: 0 0 50%; max-width: 50%; text-align: left; font-family: monospace; font-size: 1.1em;}
+.el-col-seats { flex: 0 0 20%; max-width: 20%; text-align: left; font-family: monospace; font-size: 1.1em;}
+.el-col-vote  { flex: 0 0 30%; max-width: 30%; text-align: left; font-family: monospace; font-size: 1.1em;}
 
-.el-col-cand   { flex: 0 0 35%; max-width: 35%; text-align: right; font-family: monospace; font-size: 1.1em; font-weight: bold;}
-.el-col-pparty { flex: 0 0 20%; max-width: 20%; text-align: right; font-family: monospace; font-size: 1.1em; font-weight: bold;}
-.el-col-pvote  { flex: 0 0 15%; max-width: 15%; text-align: right; font-family: monospace; font-size: 1.1em; font-weight: bold;}
-.el-col-psupp  { flex: 0 0 30%; max-width: 30%; text-align: right; font-family: monospace; font-size: 1.1em; font-weight: bold;}
+.el-col-cand   { flex: 0 0 35%; max-width: 35%; text-align: left; font-family: monospace; font-size: 1.1em; font-weight: bold;}
+.el-col-pparty { flex: 0 0 20%; max-width: 20%; text-align: left; font-family: monospace; font-size: 1.1em; font-weight: bold;}
+.el-col-pvote  { flex: 0 0 15%; max-width: 15%; text-align: left; font-family: monospace; font-size: 1.1em; font-weight: bold;}
+.el-col-psupp  { flex: 0 0 30%; max-width: 30%; text-align: left; font-family: monospace; font-size: 1.1em; font-weight: bold;}
 
 .el-swatch {
   width: 12px;
@@ -1166,6 +1180,7 @@ body.dark-mode .el-subhead { background: rgba(0,0,0,0.4); }
   margin: 1.5em 0;
   font-size: 0.95em;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
 }
 
 .election-table-2 > p { display: none !important; }
@@ -1183,6 +1198,7 @@ body.dark-mode .el-subhead { background: rgba(0,0,0,0.4); }
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.85em;
+  text-align: left;
 }
 body.dark-mode .election-table-2 .el-head { background: rgba(255,255,255,0.06); }
 
@@ -1207,16 +1223,17 @@ body.dark-mode .election-table-2 .el-subhead { background: rgba(0,0,0,0.4); }
   word-break: break-word;
   overflow-wrap: break-word;
   white-space: normal;
+  text-align: left;
 }
 .election-table-2 .el-col-2:last-child { border-right: none; }
 
-.el-col-party-2 { flex: 0 0 50%; max-width: 50%; }
-.el-col-seats-2 { flex: 0 0 20%; max-width: 20%; text-align: center; }
-.el-col-vote-2  { flex: 0 0 30%; max-width: 30%; text-align: right; font-family: monospace; font-size: 1.1em;}
+.el-col-party-2 { flex: 0 0 50%; max-width: 50%; text-align: left;}
+.el-col-seats-2 { flex: 0 0 20%; max-width: 20%; text-align: left; }
+.el-col-vote-2  { flex: 0 0 30%; max-width: 30%; text-align: left; font-family: monospace; font-size: 1.1em;}
 
-.el-col-cand-2   { flex: 0 0 50%; max-width: 50%; }
-.el-col-pparty-2 { flex: 0 0 25%; max-width: 25%; }
-.el-col-pvote-2  { flex: 0 0 25%; max-width: 25%; text-align: right; font-family: monospace; font-size: 1.1em; font-weight: bold;}
+.el-col-cand-2   { flex: 0 0 50%; max-width: 50%; text-align: left;}
+.el-col-pparty-2 { flex: 0 0 25%; max-width: 25%; text-align: left;}
+.el-col-pvote-2  { flex: 0 0 25%; max-width: 25%; text-align: left; font-family: monospace; font-size: 1.1em; font-weight: bold;}
 
 .election-table-2 .el-swatch {
   width: 12px;
